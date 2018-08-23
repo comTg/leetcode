@@ -10,10 +10,12 @@ public class Test {
         return arr[arr.length-1];
     }
     public static void main(String[] args){
-        int[] arr = new int[]{1,2,3,4,5,6};
-        System.out.println(Arrays.toString(arr));
-        Test t = new Test();
-        System.out.println(t.TestArray(arr));
-        System.out.println(Arrays.toString(arr));
+//        int[] arr = new int[]{1,2,3,4,5,6};
+//        System.out.println(Arrays.toString(arr));
+//        Test t = new Test();
+//        System.out.println(t.TestArray(arr));
+//        System.out.println(Arrays.toString(arr));
+        int x = -5;
+        System.out.println(Math.abs(x));
     }
 }
